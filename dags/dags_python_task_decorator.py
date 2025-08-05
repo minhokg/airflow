@@ -12,7 +12,7 @@ import pendulum
 @task(task_id="python_task_1")
 def print_context(ds=None, **kwargs):
     """Print the Airflow context and ds variable from the context."""
-    pprint(kwargs)
+    print(kwargs)
     print(ds)
     return "Whatever you return gets printed in the logs"
 
