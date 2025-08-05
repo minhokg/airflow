@@ -15,5 +15,5 @@ def print_context(ds=None, **kwargs):
     pprint(kwargs)
     print(ds)
     return "Whatever you return gets printed in the logs"
-g
+
 python_task_1 = print_context(ds='Run task decorator')
